@@ -1,0 +1,44 @@
+{
+  "name": "@dragan1810/use-media-recorder",
+  "version": "0.0.2",
+  "description": "A React hook based on MediaRecorder() API to record audio/video streams and Polyfill",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && jsmin -o ./lib/index.js ./lib/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragan1810/react-media-recorder.git"
+  },
+  "keywords": [
+    "react",
+    "recorder",
+    "voice recording",
+    "video recording",
+    "media recording",
+    "getusermedia",
+    "MediaRecorder",
+    "getDisplayMedia",
+    "screen recorder",
+    "video recorder",
+    "audio recorder"
+  ],
+  "author": "Dragan Novakovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dragan1810/react-media-recorder/issues"
+  },
+  "homepage": "https://github.com/Dragan1810/react-media-recorder#readme",
+  "devDependencies": {
+    "@types/dom-mediacapture-record": "^1.0.2",
+    "@types/node": "^12.12.11",
+    "@types/react": "^16.9.11",
+    "jsmin": "^1.0.1",
+    "typescript": "^3.8.3"
+  },
+  "types": "./lib/index.d.ts"
+}
